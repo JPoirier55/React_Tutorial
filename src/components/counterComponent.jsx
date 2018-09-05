@@ -51,6 +51,12 @@ class Counter extends Component {
         >
           Increment
         </button>
+        <button
+          onClick={this.handleIncrement}
+          className="btn btn-secondary btn-sm"
+        >
+          Increment
+        </button>
         {/* {this.state.tags2.length === 0 && "Please create a new tag"}
         {this.renderTags()} */}
       </div>
